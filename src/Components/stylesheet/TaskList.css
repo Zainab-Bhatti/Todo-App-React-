@@ -1,0 +1,19 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.task-list{
+    background-color: rgb(251, 245, 249);
+    border:rgb(107, 48, 110) solid;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.todo-task{
+    margin-left: 10%;
+}
+ol,li,.title,.description{
+    background-color: transparent;
+}
+

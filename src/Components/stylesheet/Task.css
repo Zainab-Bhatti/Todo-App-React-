@@ -1,0 +1,33 @@
+*{
+    font-family: cursive;
+}
+
+.task{
+    margin-left: 19px;
+    background-color: transparent;
+}
+
+.btn-del{
+    margin-left: 70%;
+    border-radius: 30px;
+    width: 85px;
+    height: 30px;
+    background-color:  rgb(109, 22, 69);
+    border-color: rgb(128, 0, 58);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-compl{
+    margin-left: 35px;
+    border-radius: 30px;
+    width: 180px;
+    height: 30px;
+    background-color: rgb(17, 117, 76);
+    border-color: rgb(7, 84, 65);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+

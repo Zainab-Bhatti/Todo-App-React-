@@ -1,0 +1,49 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.add-task{
+    display: block;
+    background-color: rgba(182, 137, 168, 0.831);
+    border: rgba(152, 88, 121, 0.989) solid ;
+    height: 90px;
+    border-radius: 16px;
+    width: 1000px;
+    margin-left: 22%;
+    padding: 19px;
+    font-weight: bold;
+}
+.titlefield{
+  background-color: transparent;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.descfield{
+ background-color: transparent;
+}
+.add-task label{
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+}
+.inputField1, .inputField2{
+  width: 250px;
+  height: 20px;
+  background-color: transparent;
+  border-color: rgb(172, 43, 86);
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.btn-add{
+    background-color:rgb(109, 22, 69);
+    border-radius: 20px;
+    margin-left: 90%;
+    margin-bottom: 10px;
+    height: 40px;
+    font-weight: bolder;
+    border-width: 2.5px;
+    cursor: pointer;
+    border-color: rgb(25, 4, 42);
+    color: white;
+}
