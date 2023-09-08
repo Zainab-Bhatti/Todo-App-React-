@@ -1,20 +1,21 @@
-import './App.css';
-//import TodoWrapper from './TodoWrapper';
-// import Todo from './NewTodo';
-//import Wrapper from './wrapper';
-import Home from './Page/Home';
+//import { UserList } from "./modules/users/components/UserList";
+import { Navbar } from "./modules/users/components/Navbar";
+//import { UserForm } from "./modules/users/components/UserForm";
+import { Route, Routes } from "react-router-dom";
+//import { ViewUser } from "./modules/users/components/ViewUser";
+import { UserRoutes } from "./router/Routes"
 
-function App() {
-
+export const App = () => {
   return (
     <div>
-       <div>
-        <Home/>
-        </div>  
+      <Navbar />
+      <div className="container">
+      <Routes>
+      {UserRoutes.map((ele) => (
+        <Route path={ele.path} element={ele.element} />
+      ))}        
+ </Routes>
+      </div>
     </div>
   );
-
-}
-
-export default App;
-
+};
